@@ -24,3 +24,9 @@ sudo docker network my_bridge_network inspect
 ```
 
 Run nc_client.sh and nc_server.sh from docker containers bash.
+
+Now you can compare transmitted and received data:
+```sh
+cat file_to_send
+cat received_file
+```
